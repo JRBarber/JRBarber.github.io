@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap CSS -->
     <link
@@ -16,12 +18,12 @@
       crossorigin="anonymous"
     />
 
-    <title>JBarber's Site</title>
+    <title>Augmented Reality</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html"> Home </a>
         </li>
         <li class="nav-item">
@@ -29,7 +31,7 @@
         </li>
         <li class="nav-item dropdown">
           <a
-            class="nav-link dropdown-toggle"
+            class="nav-link dropdown-toggle active"
             href="#"
             id="navbarDropdown"
             role="button"
@@ -43,7 +45,7 @@
             <a class="dropdown-item" href="aboutproject.html">About</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="chatbot.html">Chatbot</a>
-            <a class="dropdown-item" href="augmentedreality.html"
+            <a class="dropdown-item active" href="augmentedreality.html"
               >Augmented Reality
             </a>
           </div>
@@ -51,17 +53,33 @@
       </ul>
     </nav>
 
-    <div class="container text-center my-5">
-      <img class="rounded-circle" src="./assets/profile_pic.png" />
-      <h1>Joshua Barber's site</h1>
-      <p class="lead">
-        Hi, welcome to my website. You've reached the landing page, please use
-        the navigation to find information about my project and about me!
-      </p>
+    <div class="row p-3">
+      <div class="col">
+        <h4>Use this AR Marker to participate in the project</h4>
+        <img
+          class="img-thumbnail"
+          src="./assets/Neighbourhood-marker_scaled.jpg"
+          alt="AR Marker"
+        />
+      </div>
+      <div class="col">
+        <h4>Instructions</h4>
+        <p>
+          To use the AR application you will need an
+          <strong>Android</strong> device. Download and install the .apk file
+          (Instructions coming soon), print the marker to the left or have it on
+          a device
+          <strong>separate to the android device with the app</strong> that you
+          can lay flat. Start the app titled: (coming soon) and explore!
+        </p>
+        <hr class="solid" />
+        <div class="col">
+          <h4>Augmented Reality in Smart Energy</h4>
+          <p>Coming soon!</p>
+        </div>
+      </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
